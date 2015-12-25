@@ -15,6 +15,7 @@ if (process.platform === 'darwin') {
               var temp = stdout.split(' ');
               temp = temp[51];
               var MAC = temp.substring(temp.length - 17, temp.length);
+              MAC = MAC.split('-').join(':');
               return cb(null, MAC);
           }
           else {
@@ -31,7 +32,7 @@ if (process.platform === 'darwin') {
             exec('ifconfig | grep HWaddr', function (err, stdout, stderr) {
                 if (!err) {
                     var temp = stdout.split(' ');
-                    var MAC = temp[temp.length - 3];
+                    var MAC = temp[10].toUpperCase();
                     return cb(null, MAC);
                 }
                 else {
