@@ -1,7 +1,7 @@
 {
   "name": "node-mac",
-  "version": "0.1.0",
-  "description": "package to get current machine's mac address",
+  "version": "1.0.0",
+  "description": "npm package to get current machine's MAC address",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,11 +13,10 @@
   "keywords": [
     "node-mac",
     "mac",
-    "mac",
     "address"
   ],
   "author": "Mandeep Singh",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/daxlab/node-mac/issues"
   },
