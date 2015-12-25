@@ -5,9 +5,8 @@
 'use strict';
 var exec = require('child_process').exec;
 if (process.platform === 'darwin') {
-    //module.exports = require('./lib/osx');
+
 } else if (process.platform === 'win32') {
-    //module.exports = require('./lib/win');
     var util = {};
     util.getMAC = function(cb) {
       exec('getmac', function (err, stdout, stderr) {
@@ -26,7 +25,6 @@ if (process.platform === 'darwin') {
     };
     module.exports = util;
 } else {
-    //module.exports = require('./lib/linux');
     var util = {};
     util.getMAC = function(cb) {
             exec('ifconfig | grep HWaddr', function (err, stdout, stderr) {
