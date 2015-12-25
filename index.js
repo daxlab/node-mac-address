@@ -18,7 +18,7 @@ if (process.platform === 'darwin') {
               return cb(null, MAC);
           }
           else {
-              console.log('Some error occurred in getting MAC.');
+              console.log('Some error occurred in getting MAC ',err, stderr );
               return cb(err, null);
           }
       });
@@ -34,7 +34,7 @@ if (process.platform === 'darwin') {
                     return cb(null, MAC);
                 }
                 else {
-                    console.log('Some error occurred in getting MAC.');
+                    console.log('Some error occurred in getting MAC ',err, stderr );
                     return cb(err, null);
                 }
             });
