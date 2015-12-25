@@ -1,5 +1,5 @@
 {
-  "name": "node-mac",
+  "name": "node-mac-address",
   "version": "1.0.0",
   "description": "Node package to get current machine's MAC address",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daxlab/node-mac.git"
+    "url": "git+https://github.com/daxlab/node-mac-address.git"
   },
   "keywords": [
     "node-mac",
@@ -18,9 +18,9 @@
   "author": "Mandeep Singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daxlab/node-mac/issues"
+    "url": "https://github.com/daxlab/node-mac-address/issues"
   },
-  "homepage": "https://github.com/daxlab/node-mac#readme",
+  "homepage": "https://github.com/daxlab/node-mac-address#readme",
   "dependencies": {
     "chai": "^3.4.1"
   }
