@@ -1,3 +1,6 @@
+sudo: true
+before_install:
+  - sudo apt-get install -y net-tools
 language: node_js
 node_js:
   - "5.3"
