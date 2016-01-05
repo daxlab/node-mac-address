@@ -16,7 +16,7 @@ mc.getMAC(function(err, MAC) {
 ```
 ## License
 
-MIT © [Mandeep Singh](http://github.com/daxlab)
+[MIT](http://daxlab.mit-license.org/) © [Mandeep Singh](http://github.com/daxlab)
 
 ## TODO
 
